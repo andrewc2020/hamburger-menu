@@ -1,15 +1,17 @@
 // pages/index.js
-import Link from 'next/link'
+/* ./pages/index.js               */
+import Head from 'next/head';
+import { Navbar } from '../components/Navbar';
 
 export default function Home() {
   return (
-    <nav>
-      <Link href="/contact">
-        <a>Contact</a>
-      </Link>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </nav>
-  )
+    <div>
+      <Head>
+        <title>Create Next App</title>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+      <Navbar />
+      <div>Hello World</div>
+    </div>
+  );
 }
