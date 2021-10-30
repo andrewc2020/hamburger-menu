@@ -1,8 +1,10 @@
-// pages/Contact.js
+// pages/Contact
+import { Box } from '../components/Box'
 export default function Contact() {
     return (
-      <div>
-        <h1>Contact Page</h1>
-      </div>
+     
+      
+      <Box />
+      
     )
   }
