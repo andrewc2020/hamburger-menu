@@ -42,17 +42,17 @@ export const Navbar = () => {
                 Home
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/contact#services'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 Services
               </a>
             </Link>
-            <Link href='/about'>
+            <Link href='/contact#aboutUs'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 About us
               </a>
             </Link>
-            <Link href='/contact'>
+            <Link href='/contact#contactUs'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 Contact us
               </a>
