@@ -2,7 +2,7 @@
 /* ./pages/index.js               */
 import Head from 'next/head';
 
-import { Navbar } from './Navbar';
+import { Navbar } from '../components/Navbar';
 
 
 export default function Home() {
