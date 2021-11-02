@@ -6,7 +6,7 @@ export const Box = () => {
         
 
 <div>
-	<h2>Welcome to GeeksforGeeks</h2>
+	<h2>Welcome</h2>
 	<p>This is the example of <i>Redirect
 to a particular section using HTML on same page</i>
 </p>
