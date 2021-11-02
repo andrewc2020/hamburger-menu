@@ -5,7 +5,7 @@ export const Box = () => {
     return (
         
 
-<body>
+<div>
 	<h2>Welcome to GeeksforGeeks</h2>
 	<p>This is the example of <i>Redirect
 to a particular section using HTML on same page</i>
@@ -28,7 +28,7 @@ to a particular section using HTML on same page</i>
 	<div className={styles.standard}>
 		<h2>Team Section</h2>
 	</div>
-</body>
+</div>
 
 
     )
