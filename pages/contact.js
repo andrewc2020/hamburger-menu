@@ -1,10 +1,13 @@
 // pages/Contact
-import { Box } from '../components/Box'
-export default function Contact() {
+import Layout, { siteTitle } from '../components/layout'
+
+
+export default function Contact({children, contact}) {
     return (
      
-      
-      <Box />
-      
+    <div>
+     <Layout />
+     <h1>Contact Page</h1>
+      </div>
     )
   }

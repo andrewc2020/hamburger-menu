@@ -52,17 +52,13 @@ export const Navbar = () => {
                 Home
               </a>
             </Link>
-            <Link href='/contact#services'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
-                Services
-              </a>
-            </Link>
-            <Link href='/contact#aboutUs'>
+          
+            <Link href='/about'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 About us
               </a>
             </Link>
-            <Link href='/contact#contactUs'>
+            <Link href='/contact'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
                 Contact us
               </a>
