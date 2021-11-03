@@ -9,7 +9,7 @@ export default function Contact({children, contact}) {
     <div>
      <Layout />
      <h1>Contact Page</h1>
-     <Mailto />
+     <Mailto email="someone@somewhere.com" subject="Salut" body="Salut Glyn,">Contactez moi</Mailto> 
       </div>
     )
   }
